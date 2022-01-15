@@ -1,0 +1,45 @@
+.menu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: grid;
+  background-color: cadetblue;
+  grid-template-rows: 4fr 1fr;
+  top: 0;
+  left: 0;
+}
+ul {
+  font-size: 40px;
+  display: grid;
+  padding: 25px;
+  margin: 0;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+a {
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  list-style: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+.session {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  justify-self: center;
+}
+.burger {
+  height: 50px;
+  z-index: 2;
+  position: sticky;
+  cursor: pointer;
+}

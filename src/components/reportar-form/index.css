@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  justify-items: center;
+  gap: 36px;
+}
+.error-message {
+  color: red;
+}
+.loading-submit {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: grid;
+  top: 0;
+  left: 0;
+  justify-items: center;
+  align-items: center;
+  z-index: 3;
+  background-color: rgb(0, 0, 0, 0.5);
+}

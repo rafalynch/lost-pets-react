@@ -1,0 +1,20 @@
+button {
+  border-radius: 4px;
+  height: 50px;
+  width: 335px;
+  border: 0;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: black;
+}
+.pink {
+  background-color: #ff9df5;
+}
+.green {
+  background-color: #97ea9f;
+}
+.gray {
+  background-color: #cdcdcd;
+}

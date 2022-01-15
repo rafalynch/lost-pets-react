@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  justify-items: center;
+}
+.marker-img {
+  height: 50px;
+}
+.instructions {
+  width: 335px;
+}

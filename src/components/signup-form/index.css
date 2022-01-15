@@ -1,0 +1,10 @@
+.signup-container {
+  display: grid;
+  justify-items: center;
+}
+.button-container {
+  padding: 15px;
+}
+.error-message {
+  color: red;
+}

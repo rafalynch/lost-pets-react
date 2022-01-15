@@ -1,0 +1,49 @@
+.modal-container {
+  background-color: white;
+  width: 380px;
+  height: 80vh;
+  margin-top: 60px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  pointer-events: initial;
+}
+@media (min-width: 750px) {
+  .modal-container {
+    width: 730px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title title"
+      "name phone"
+      "info info"
+      "button button";
+  }
+  .name {
+    grid-area: name;
+  }
+  .phone {
+    grid-area: phone;
+  }
+  .info {
+    grid-area: info;
+  }
+  .button-container {
+    margin-top: 8px;
+    grid-area: button;
+  }
+  .title-container {
+    grid-area: title;
+  }
+}
+.error {
+  color: red;
+  text-align: center;
+}
+.exit {
+  position: absolute;
+  justify-self: end;
+  margin: 10px;
+  cursor: pointer;
+}
