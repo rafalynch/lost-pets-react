@@ -91,7 +91,15 @@ export function ReportarForm() {
       <MainButton type="submit" color="pink">
         Reportar como perdido
       </MainButton>
-      <MainButton color="gray">Cancelar</MainButton>
+      <MainButton
+        onClick={() => {
+          navigate("/");
+        }}
+        type="button"
+        color="gray"
+      >
+        Cancelar
+      </MainButton>
     </form>
   );
 }
